@@ -38,7 +38,32 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     
         <!-- Meta Pixel Code -->
+
         <script>
+          (function (e, t, n, o, a, c, r, l, s, u, f) {
+              e.fbq || (((l = e.dhPixel = function () {
+                l.callMethod ? l.callMethod.apply(l, arguments) : l.queue.push(arguments);
+              }).push = l), (l.queue = []), (a = e.fbq = function () {
+                for (var t = new Array(arguments.length), n = 0; n < t.length; ++n) t[n] = arguments[n];
+                var o = Math.floor(1e14 * Math.random());
+                if (!(("track" !== t[0].toLowerCase() && "trackcustom" !== t[0].toLowerCase()) || (t[3] && t[3].eventID))) {
+                  t[2] || (t[2] = void 0), "object" == typeof t[3] ? (t[3].eventID = o) : (t[3] = {
+                    eventID: o
+                  });
+                }
+                if (!(("tracksingle" !== t[0].toLowerCase() && "tracksinglecustom" !== t[0].toLowerCase()) || (t[3] && t[3].eventID) || (t[4] && t[4].eventID))) {
+                  t[3] || (t[3] = void 0), t[4] || (t[4] = void0), "object" == typeof t[4] ? (t[4].eventID = o) : (t[4] = {
+                    eventID: o
+                  });
+                }
+                a.callMethod ? a.callMethod.apply(a, t) : a.queue.push(t), e.dhPixel(t);
+              }), e._fbq || (e._fbq = a), (a.push = a), (a.loaded = !0), (a.version = "2.0"), (a.queue = []), ((c = t.createElement(n)).async = !0), (c.src = "https://connect.facebook.net/en_US /fbevents.js"), (r = t.getElementsByTagName(n)[0]).parentNode.insertBefore(c, r), ((s = t.createElement(n)).async = !0), (s.src = "https://s2s.6head.com.au/static/DhPixel.js"), r.parentNode.insertBefore(s, r));
+            })(window, document, "script");
+            fbq('init', '463113855755542');
+            fbq('track', 'PageView');
+          </script>
+
+        <!--<script>
             !function (f, b, e, v, n, t, s) {
                 if (f.fbq) return; n = f.fbq = function () {
                     n.callMethod ?
@@ -54,7 +79,7 @@
             fbq('track', 'PageView');
         </script>
         <noscript><img height="1" width="1" style="display:none"
-                src="https://www.facebook.com/tr?id=463113855755542&ev=PageView&noscript=1" /></noscript>
+                src="https://www.facebook.com/tr?id=463113855755542&ev=PageView&noscript=1" /></noscript>-->
         <!-- End Meta Pixel Code -->
   </head>
 
